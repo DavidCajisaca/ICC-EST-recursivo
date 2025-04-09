@@ -3,6 +3,14 @@ public class App {
         System.out.println("Llamada recursiva");
         int numero = 5;
         System.out.println("El factorial de " + numero + " es: " + facto(numero));
+        //fibonnaci
+        ejercicio e = new ejercicio();
+        int fibo=10;
+        System.out.println("El fibonacci de " + fibo + " es: " + e.fibonacci(fibo));
+        //suma consecutiva
+        int suma=5;
+        System.out.println("La suma consecutiva de " + suma + " es: " + e.sumaconse(suma));
+
     }
     public static int facto(int n){
         if (n == 0) {
